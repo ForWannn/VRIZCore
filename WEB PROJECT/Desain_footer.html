@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      footer .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(108, 108, 255);
+        /* align-items: center; */
+        padding: 10px;
+      }
+
+      footer .container .logo h1 {
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+      }
+
+      footer .container .logo p {
+        letter-spacing: 2.4px;
+        margin-top: -9px;
+      }
+
+      footer .container .link {
+        text-align: center;
+      }
+
+      footer .container .link ul a,
+      footer .container .link ul li {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-weight: 600;
+      }
+
+      footer .container .contact {
+        max-width: calc(100% - 80%);
+      }
+
+      footer .container .contact .alamat p {
+        font-size: 12px;
+      }
+
+      footer .container .contact .telepon,
+      footer .container .contact .email {
+        display: flex;
+      }
+
+      footer .container .contact .telepon p,
+      footer .container .contact .email p {
+        font-size: 13px;
+        margin-left: 10px;
+      }
+
+      footer .container .contact .others {
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+      }
+
+      footer .container .contact .others a {
+        color: black;
+      }
+
+      footer .container .contact .alamat,
+      footer .container .contact .telepon,
+      footer .container .contact .email,
+      footer .container .contact .others {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <h1>PRESTING</h1>
+          <p>Prestige Hosting</p>
+        </div>
+        <div class="link">
+          <h3>QUICK LINK</h3>
+          <ul>
+            <a href=""><li>HOME</li></a>
+            <a href=""><li>HOSTING</li></a>
+            <a href=""><li>DOMAIN</li></a>
+            <a href=""><li>FAQ</li></a>
+          </ul>
+        </div>
+        <div class="contact">
+          <div class="alamat">
+            <h3>ALAMAT</h3>
+            <p>
+              Jl. Sungai Sahang No. 3654, Lorok Pakjo, Kec Ilir Barat I, Kota
+              Palembang, Sumatera Selatan 30151
+            </p>
+          </div>
+          <div class="telepon">
+            <i data-feather="phone"></i>
+            <p>+62 895 7119 01515</p>
+          </div>
+          <div class="email">
+            <i data-feather="mail"></i>
+            <p>prestigehosting@gmail.com</p>
+          </div>
+          <div class="others">
+            <a href="https://www.instgram.com"
+              ><i data-feather="instagram"></i
+            ></a>
+            <a href="https://www.github.com"><i data-feather="github"></i></a>
+            <a href="https://www.twitter.com"><i data-feather="twitter"></i></a>
+            <a href="https://www.facebook.com"
+              ><i data-feather="facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
